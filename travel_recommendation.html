@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation - Discover Your Perfect Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>TravelExplorer</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="travel_recommendation.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search destinations...">
+                <button id="searchBtn" onclick="searchRecommendations()">Search</button>
+                <button id="resetBtn" onclick="clearResults()">Reset</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page Content -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Perfect Destination</h1>
+            <p>Explore breathtaking beaches, ancient temples, and amazing countries around the world. 
+            Let us help you find your next adventure based on your preferences.</p>
+            <p class="tagline">Your journey to unforgettable memories starts here!</p>
+        </div>
+    </section>
+
+    <!-- Search Results Container -->
+    <div id="searchResults" class="results-container"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Twitter</a>
+        </div>
+        <p>&copy; 2025 TravelExplorer. All rights reserved.</p>
+    </footer>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
